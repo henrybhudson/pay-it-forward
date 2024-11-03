@@ -1,0 +1,153 @@
+html,
+body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+}
+
+body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Albert Sans"
+}
+
+:root {
+        --green: #4DD59F;
+}
+
+.header {
+        width: 100%;
+        height: 50px;
+        background-color: var(--green);
+        display: flex;
+        align-items: center;
+
+}
+
+.logo {
+        height: 40px;
+        margin-left: 5%;
+}
+
+.logo-text {
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+}
+
+.nominations,
+.feed {
+        margin-top: 20px;
+        width: 90%;
+}
+
+.nominations-title,
+.feed-title {
+        font-size: 26px;
+        padding-bottom: 15px;
+}
+
+.nomination {
+        width: calc(100% - 2em);
+        padding: 1em;
+        border: 1px solid #EFEFEF;
+        margin-bottom: 10px;
+}
+
+.nom-badge {
+        padding: 4px 8px;
+        background-color: #B3EDD6;
+        width: fit-content;
+        border-radius: 2px;
+        font-size: 12px;
+}
+
+.nom-text {
+        margin-top: 15px;
+}
+
+.complete {
+        background-color: #B3EDD6;
+        padding: 10px;
+        border-radius: 5px;
+        width: calc(100% - 20px);
+        text-align: center;
+        margin-top: 20px;
+}
+
+.item {
+        width: 100%;
+        border: 1px solid #EFEFEF;
+        display: grid;
+        grid-template-rows: 5fr 2fr;
+        grid-template-columns: 3fr 2fr;
+        margin-bottom: 20px;
+}
+
+.item-top-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+.item-top-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        border-left: 1px solid #EFEFEF;
+}
+
+.link-text,
+.item-name,
+.item-text {
+        padding-left: 16px;
+        font-size: 14px;
+}
+
+.link-text {
+        font-size: 14px;
+        padding-bottom: 5px;
+}
+
+.item-name {
+        font-weight: 700;
+}
+
+.item-bottom {
+        grid-column: 1 / span 2;
+        border-top: 1px solid #EFEFEF;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        padding: 10px 16px;
+}
+
+.item-nominated {
+        font-weight: 700;
+}
+
+.item-prevlinks-title {
+        color: #4F99CE;
+}
+
+.item-prevlinks {
+        margin-left: 15px;
+        color: #A7C2D6;
+}
+
+.create-btn {
+        position: fixed;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: var(--green);
+        color: white;
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 30px;
+}

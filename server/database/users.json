@@ -1,0 +1,44 @@
+[
+        {
+                "name": "Henry Hudson",
+                "email": "t@t.com",
+                "password": "test",
+                "following": [
+                        "x@x.com",
+                        "g@g.com",
+                        "t@t.com"
+                ],
+                "random": true
+        },
+        {
+                "name": "John Smith",
+                "email": "x@x.com",
+                "password": "test",
+                "following": [
+                        "t@t.com",
+                        "g@g.com",
+                        "x@x.com"
+                ],
+                "random": false
+        },
+        {
+                "name": "George Topping",
+                "email": "g@g.com",
+                "password": "test",
+                "following": [
+                        "x@x.com",
+                        "t@t.com",
+                        "g@g.com"
+                ],
+                "random": true
+        },
+        {
+                "name": "Test User",
+                "email": "h@h.com",
+                "password": "test",
+                "following": [
+                        "h@h.com"
+                ],
+                "random": false
+        }
+]

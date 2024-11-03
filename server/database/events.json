@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "description": "gave some money to george",
+    "chain": 1,
+    "link": 1,
+    "user": "x@x.com",
+    "nominated": "t@t.com",
+    "nominationCompleted": true
+  },
+  {
+    "id": 2,
+    "description": "gave extra money to george",
+    "chain": 1,
+    "link": 2,
+    "user": "t@t.com",
+    "nominated": "g@g.com",
+    "nominationCompleted": false
+  }
+]

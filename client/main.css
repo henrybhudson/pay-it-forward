@@ -1,0 +1,310 @@
+html,
+body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+}
+
+body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Albert Sans"
+}
+
+:root {
+        --green: #4DD59F;
+}
+
+.header {
+        width: 100%;
+        height: 50px;
+        background-color: var(--green);
+        display: flex;
+        align-items: center;
+
+}
+
+.logo {
+        height: 40px;
+        margin-left: 5%;
+}
+
+.logo-text {
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+}
+
+.nominations,
+.feed {
+        margin-top: 20px;
+        width: 90%;
+}
+
+.nominations-title,
+.feed-title {
+        font-size: 26px;
+        padding-bottom: 15px;
+}
+
+.nomination {
+        width: calc(100%);
+        padding: 1em;
+        border: 1px solid #EFEFEF;
+        margin-bottom: 10px;
+}
+
+.nom-badge {
+        padding: 4px 8px;
+        background-color: #B3EDD6;
+        width: fit-content;
+        border-radius: 2px;
+        font-size: 12px;
+}
+
+.nom-text {
+        margin-top: 15px;
+}
+
+.complete {
+        background-color: #B3EDD6;
+        padding: 10px;
+        border-radius: 5px;
+        width: calc(100% - 20px);
+        text-align: center;
+        margin-top: 20px;
+}
+
+.item {
+        width: 100%;
+        border: 1px solid #EFEFEF;
+        display: grid;
+        grid-template-rows: 5fr 2fr;
+        grid-template-columns: 3fr 2fr;
+        margin-bottom: 20px;
+}
+
+.item-top-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+.item-top-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        border-left: 1px solid #EFEFEF;
+}
+
+.link-text,
+.item-name,
+.item-text {
+        padding-left: 16px;
+        font-size: 14px;
+}
+
+.link-text {
+        font-size: 14px;
+        padding-bottom: 5px;
+}
+
+.item-name {
+        font-weight: 700;
+}
+
+.item-bottom {
+        grid-column: 1 / span 2;
+        border-top: 1px solid #EFEFEF;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        padding: 10px 16px;
+}
+
+.item-nominated {
+        font-weight: 700;
+}
+
+.item-prevlinks-title {
+        color: #4F99CE;
+}
+
+.item-prevlinks {
+        margin-left: 15px;
+        color: #A7C2D6;
+}
+
+.create-btn {
+        position: fixed;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: var(--green);
+        color: white;
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 30px;
+}
+
+.email-entry {
+        margin: auto;
+        width: 320px;
+        height: 53px;
+        background: rgba(255, 255, 255, 1);
+        opacity: 1;
+        position: absolute;
+        top: 219px;
+        border: 3px solid rgba(217, 217, 217, 1);
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        overflow: hidden;
+}
+
+.password-entry {
+        margin: auto;
+        width: 320px;
+        height: 53px;
+        background: rgba(255, 255, 255, 1);
+        opacity: 1;
+        position: absolute;
+        top: 291px;
+        border: 3px solid rgba(217, 217, 217, 1);
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        overflow: hidden;
+}
+
+.login-text {
+        color: rgba(217, 217, 217, 1);
+        position: absolute;
+        font-family: Albert Sans;
+        font-weight: Regular;
+        font-size: 24px;
+        opacity: 1;
+        text-align: left;
+}
+
+.entry {
+        width: 100%;
+        margin: auto;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+input[type=text],
+input[type=password] {
+        color: rgb(141, 141, 141);
+        font-family: Albert Sans;
+        font-weight: Regular;
+        font-size: 20px;
+        opacity: 1;
+        text-indent: 15px;
+        text-align: left;
+        width: 100%;
+        margin: auto;
+        height: 53px;
+        width: 80%;
+        border: 2.5px solid rgba(217, 217, 217, 1);
+        border-radius: 50px;
+        box-sizing: border-box;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+        font-family: Albert Sans;
+        font-weight: Regular;
+        font-size: 20px;
+        width: 65%;
+        background-color: #4DD59F;
+        border: none;
+        border-radius: 50px;
+        height: 53px;
+        color: white;
+        text-decoration: none;
+        margin-top: 15px;
+        cursor: pointer;
+}
+
+.deedEntry {
+        color: rgb(141, 141, 141);
+        font-family: Albert Sans;
+        font-weight: Regular;
+        font-size: 20px;
+        opacity: 1;
+        text-indent: 15px;
+        text-align: left;
+        width: 100%;
+        margin: auto;
+        height: 53px;
+        width: 80%;
+        border: 2.5px solid rgba(217, 217, 217, 1);
+        border-radius: 5px;
+        box-sizing: border-box;
+}
+
+
+.btn-primary {
+        color: #fff;
+        background-color: transparent !important;
+        border-color: transparent !important;
+}
+
+.btn-primary:focus {
+        outline: none !important;
+        box-shadow: none !important;
+}
+
+.btn-primary:hover {
+        color: #fff;
+        background-color: transparent !important;
+        border-color: transparent !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+        color: #fff;
+        background-color: transparent !important;
+        border-color: transparent !important;
+}
+
+.btn.focus,
+.btn:focus {
+        outline: 0;
+        box-shadow: transparent !important;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+        box-shadow: transparent !important;
+}
+
+.generate-container {
+        display: flex;
+        align-items: center;
+}
+
+.generate-idea-btn {
+        margin-left: 10px;
+        padding: 4px 8px;
+        border-radius: 4px;
+        background-color: #4DD59F;
+}
+
+.generate-idea-text {
+        margin-top: 10px;
+        margin-bottom: 5px;
+}
