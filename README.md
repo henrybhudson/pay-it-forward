@@ -4,4 +4,4 @@ Imagine a platform where every good deed ignites a chain reaction of generosity.
 
 ## How to Use
 
-Run `node index.js` in the `server` folder to run the server locally. Open the webpages in `client` to use the frontend interface.
+Run `node index.js` in the `server` folder to run the server locally. Open the webpages in `client` to use the frontend interface with **Live Server**.
